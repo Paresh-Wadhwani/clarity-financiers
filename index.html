@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Clarity Financiers | Tax & GST Experts</title>
+		<!-- Material Font & Icons -->
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link rel="stylesheet" href="./style.css" class="css">
+		<link rel="shortcut icon" href="./favicon.ico">
+	</head>
+
+	<body>
+
+		<!-- Navigation -->
+		<nav>
+			<div class="logo">
+				<img class="logo-img" src="./logo.webp" alt="Clarity Financiers Logo">
+			</div>
+			<div class="nav-links">
+				<a href="#home">Home</a>
+				<a href="#services">Services</a>
+				<a href="#contact">Contact</a>
+			</div>
+		</nav>
+
+		<!-- Hero Section -->
+		<section id="home">
+			<img class="hero-img" src="./hero.svg" alt="" srcset="">
+
+			<div class="hero-text">
+				<h1>Expert Financial Guidance</h1>
+				<p>Simplifying your taxes and GST compliance with precision, efficiency, and unwavering reliability.</p>
+				<br>
+			</div>
+		</section>
+
+		<!-- Services Section -->
+		<section id="services">
+			<h2>Our Services</h2>
+			<div class="service-grid">
+				<div class="service-card">
+					<span class="material-icons">receipt_long</span>
+					<h3>Income Tax Returns</h3>
+					<p>Strategic tax planning and flawless filing for individuals and businesses.</p>
+				</div>
+				<div class="service-card">
+					<span class="material-icons">app_registration</span>
+					<h3>GST Applications</h3>
+					<p>Swift and compliant GST registration tailored to your business structure.</p>
+				</div>
+				<div class="service-card">
+					<span class="material-icons">fact_check</span>
+					<h3>GST Returns</h3>
+					<p>Accurate, on-time GST return filing to keep you completely compliant.</p>
+				</div>
+			</div>
+			<p class="coming-soon">More specialized financial services coming soon...</p>
+		</section>
+
+		<!-- Contact Section -->
+		<section id="contact">
+			<div class="contact-container">
+				<h2>Get In Touch</h2>
+				<form id="contactForm">
+					<label for="fullName">Full Name *</label>
+					<input type="text" id="fullName" name="fullName" required placeholder="John Doe">
+
+					<label for="phone">Phone Number</label>
+					<input type="tel" id="phone" name="phone" placeholder="+91 98765 43210">
+
+					<label for="email">Email Address</label>
+					<input type="email" id="email" name="email" placeholder="john@example.com">
+
+					<label for="service">Service Required *</label>
+					<select id="service" name="service" required>
+						<option value="" disabled selected>Select an option</option>
+						<option value="Income Tax Return">Income Tax Return</option>
+						<option value="GST Registration">GST Registration</option>
+						<option value="GST Return">GST Return</option>
+						<option value="Other">Other [Please mention required services in the below paragraph]</option>
+					</select>
+
+					<label for="additionalInfo">Additional Information</label>
+					<textarea id="additionalInfo" name="additionalInfo" rows="4"
+						placeholder="Tell us more about your requirements..."></textarea>
+
+					<button type="submit">Submit Request</button>
+				</form>
+
+				<div class="contact-info">
+					<p>Or contact us directly at:</p>
+					<p>
+						<a href="tel:+91 98765 43210">
+							<span class="material-icons" style="vertical-align: middle; font-size: 18px;">phone</span>
+							+91 98765 43210
+						</a>
+						&nbsp;|&nbsp;
+						<a href="mailto:abc@server.com">
+							<span class="material-icons" style="vertical-align: middle; font-size: 18px;">email</span>
+							abc@server.com
+						</a>
+					</p>
+				</div>
+			</div>
+		</section>
+
+		<!-- Footer -->
+		<footer>
+			<p>&copy; 2026 Clarity Financiers. All rights reserved.</p>
+		</footer>
+
+		<!-- Form Validation Script -->
+		<script src="./script.js"></script>
+
+	</body>
+
+</html>
