@@ -235,3 +235,7 @@ footer {
     color: var(--text-secondary);
     border-top: 1px solid var(--border-color);
 }
+
+.text-col-white {
+    color: #fff !important;
+}
