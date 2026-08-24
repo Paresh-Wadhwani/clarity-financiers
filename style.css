@@ -22,6 +22,13 @@ body {
     line-height: 1.6;
 }
 
+body::before
+{
+	content: '';
+	display: block;
+	height: 100px;
+}
+
 /* --- Navigation --- */
 nav {
     display: flex;
