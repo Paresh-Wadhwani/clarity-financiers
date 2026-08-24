@@ -64,13 +64,22 @@ nav {
     text-align: center;
     padding: 120px 20px;
     background: linear-gradient(180deg, var(--bg-color) 0%, var(--surface-color) 100%);
-    display: flex;
-    justify-content: space-evenly;
+}
+
+#hero-spacer {
+    height: 60px;
+    width: 60px;
 }
 
 .hero-img {
-    width: 40%;
+    width: 80%;
     height: auto;
+}
+
+@media (min-width: 992px) {
+    .hero-img {
+        width: 50%;
+    }
 }
 
 .hero-text {
